@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_register"
+    app:startDestination="@id/stepOneFragment">
+
+    <fragment
+        android:id="@+id/stepOneFragment"
+        android:name="com.century.zj.ui.register.Step1.StepOneFragment"
+        android:label="fragment_step_one"
+        tools:layout="@layout/fragment_step_one" >
+        <action
+            android:id="@+id/action_stepOneFragment_to_stepTwoFragment"
+            app:destination="@id/stepTwoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/stepTwoFragment"
+        android:name="com.century.zj.ui.register.Step2.StepTwoFragment"
+        android:label="fragment_step_two"
+        tools:layout="@layout/fragment_step_two" />
+</navigation>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.main.Study.Event.EventActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/message_bac_4"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:toolbarId="@+id/toolbar">
+            <!--
+            scroll ：想要触发滑动事件，必须要加上这个属性，不加最后会停在顶端，比如Tablayout
+            exitUntilCollapsed ：表示滑动到最后折叠在顶端
+            enterAlways ：表示向上滑动消失，向下滑动可见
+            -->
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#001296db"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme"
+                app:layout_collapseMode="pin" />
+
+            <!--
+            pin ：固定模式，在折叠的时候最后固定在顶端
+            parallax ：视差模式，在折叠的时候会有个视差折叠的效果。
+            -->
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        android:backgroundTint="#d1F8FAC5"
+        app:rippleColor="@color/smssdk_white"
+        app:pressedTranslationZ="50dp"
+        android:elevation="8dp"
+        app:borderWidth="0dp"
+        android:scaleType="center"
+        app:srcCompat="@drawable/ic_baseline_bookmark_border_24" />
+
+    <include
+        android:id="@+id/content"
+        layout="@layout/content_scrolling_withimg" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

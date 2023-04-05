@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.main.Home_page.search.SearchActivity">
+
+    <LinearLayout
+        android:id="@+id/main_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:padding="8dp"
+        android:background="#26000000"
+        android:orientation="horizontal">
+
+        <com.century.zj.ui.main.Home_page.search.ClearEditTextView
+            android:id="@+id/main_et"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/register_style"
+            android:drawableLeft="@drawable/search_2"
+            android:drawablePadding="3dp"
+            android:hint="请输入关键词"
+            android:imeOptions="actionSearch"
+            android:lines="1"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/main_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/main_rv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:id="@+id/main_labelll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索热点"
+                android:paddingLeft="13dp"
+                android:paddingTop="13dp"
+                />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/main_label"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/hot5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_style"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/LOADING"
+                    app:layout_constraintBottom_toTopOf="@+id/hot4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/guideline112"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/hot4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_style"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/LOADING"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline114"
+                    app:layout_constraintEnd_toEndOf="@+id/hot5"
+                    app:layout_constraintStart_toStartOf="@+id/hot5"
+                    app:layout_constraintTop_toBottomOf="@+id/hot5" />
+
+                <TextView
+                    android:id="@+id/hot3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_style"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/LOADING"
+                    app:layout_constraintBottom_toTopOf="@+id/hot2"
+                    app:layout_constraintEnd_toEndOf="@+id/hot2"
+                    app:layout_constraintStart_toStartOf="@+id/hot2"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/hot2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_style"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/LOADING"
+                    app:layout_constraintBottom_toTopOf="@+id/hot1"
+                    app:layout_constraintEnd_toEndOf="@+id/hot1"
+                    app:layout_constraintStart_toStartOf="@+id/hot1"
+                    app:layout_constraintTop_toBottomOf="@+id/hot3" />
+
+                <TextView
+                    android:id="@+id/hot1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/search_style"
+                    android:paddingStart="5dp"
+                    android:paddingEnd="5dp"
+                    android:text="@string/LOADING"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline113"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline112"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/hot2" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline114"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.44" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline113"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.6" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline112"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.5" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

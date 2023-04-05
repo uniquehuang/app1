@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 如果是用Android studio开发，注意styleable中的name需要跟自定义的View类名相同，否则，在布局文件中无法引用下面的属性 -->
+    <declare-styleable name="CircleImage">
+
+        <!-- 是否有外边框 -->
+        <attr name="hasBorder" format="boolean" />
+        <!-- 有外边框的情况下，外边框的颜色 -->
+        <attr name="borderColor" format="color" />
+        <!-- 有外边框的情况下，外边框的厚度 -->
+        <attr name="borderWidth" format="dimension" />
+
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="font_large_size">34sp</dimen>
+    <dimen name="font_mid_size">20sp</dimen>
+    <dimen name="font_min_size">14sp</dimen>
+    <dimen name="margin_Padding">5dp</dimen>
+    <dimen name="wh">10dip</dimen>
+    <dimen name="four_dip">4dip</dimen>
+    <dimen name="font_large_plus_size">40sp</dimen>
+</resources>

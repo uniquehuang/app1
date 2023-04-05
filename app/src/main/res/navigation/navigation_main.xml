@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/third">
+    <fragment
+        android:id="@+id/third"
+        android:name="com.century.zj.ui.main.Home_page.HomePageFragment"
+        android:label="@string/HOME"
+        tools:layout="@layout/fragment_home_page">
+        <action
+            android:id="@+id/action_homePageFragment_to_travelFragment"
+            app:destination="@id/first" />
+        <action
+            android:id="@+id/action_homePageFragment_to_studyFragment"
+            app:destination="@id/second" />
+        <action
+            android:id="@+id/action_homePageFragment_to_forumFragment2"
+            app:destination="@id/fourth" />
+        <action
+            android:id="@+id/action_homePageFragment_to_gameFragment"
+            app:destination="@id/fifth" />
+    </fragment>
+    <fragment
+        android:id="@+id/first"
+        android:name="com.century.zj.ui.main.Travel.TravelFragment"
+        android:label="@string/modular_one"
+        tools:layout="@layout/fragment_travel" />
+    <fragment
+        android:id="@+id/fifth"
+        android:name="com.century.zj.ui.main.Game.GameFragment"
+        android:label="@string/modular_five"
+        tools:layout="@layout/fragment_game" />
+    <fragment
+        android:id="@+id/second"
+        android:name="com.century.zj.ui.main.Study.StudyFragment"
+        android:label="@string/modular_two"
+        tools:layout="@layout/fragment_study" />
+    <fragment
+        android:id="@+id/fourth"
+        android:name="com.century.zj.ui.main.Forum.ForumFragment"
+        android:label="@string/modular_four" />
+</navigation>

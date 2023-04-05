@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.century.zj.ui.main.Study.Event.EventActivity"
+    android:background="@drawable/page5"
+    tools:showIn="@layout/activity_event">
+
+    <!--app:layout_behavior属性触发滑动效果，前提是内容区是可滑动的-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/content_text1"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:textColor="#1d1d1f"
+        android:text="www"/>
+    <ImageView
+        android:id="@+id/content_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"/>
+    <TextView
+        android:id="@+id/content_text2"
+        android:text="www"
+        android:textSize="18sp"
+        android:textColor="#1d1d1f"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16sp"
+        android:layout_marginTop="16sp"
+        android:layout_marginEnd="16sp"
+        android:layout_marginBottom="40dp"/>
+</LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

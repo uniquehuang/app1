@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/voice"
+        android:icon="@drawable/dkplayer_ic_action_volume_up"
+        android:title="语音"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/event_more_horiz_24_"
+        android:title="分享"
+        app:showAsAction="always" />
+</menu>

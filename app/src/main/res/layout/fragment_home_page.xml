@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/page9"
+    tools:context=".ui.main.Home_page.HomePageFragment">
+
+    <com.century.zj.custom_components.MyReboundScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:background="#e7ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btn_search"
+                    android:layout_width="0dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/simple_style"
+                    android:drawableStart="@drawable/search_2"
+                    android:gravity="center|center_vertical"
+                    android:hint="@string/HOME_SEARCH"
+                    android:importantForAutofill="no"
+                    android:maxLines="1"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="20dp"
+                    android:textSize="@dimen/font_min_size"
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline48"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/guideline49"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <ImageView
+                    android:id="@+id/punch_the_clock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/punch_the_clock"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline49"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.98" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.12" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="240dip">
+
+                <com.century.zj.ui.main.Home_page.MyGallery
+                    android:id="@+id/my_gallery"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline28"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="@+id/guideline27"></com.century.zj.ui.main.Home_page.MyGallery>
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/red_room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:drawableLeft="@drawable/red_event"
+                    android:textColor="#F31E1E"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/revolutionary_site"
+                    android:textSize="@dimen/font_mid_size" />
+
+                <ImageView
+                    android:id="@+id/event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:contentDescription="@string/TODO"
+                    android:src="@drawable/load_more" />
+
+            </LinearLayout>
+
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout9"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout9"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout9"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingBottom="15dp">
+
+                        <ImageView
+                            android:id="@+id/redAddressView1"
+                            android:layout_width="120dp"
+                            android:layout_height="80dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/TODO"
+                            android:src="@drawable/sj1_3" />
+
+                        <TextView
+                            android:id="@+id/redAddressText1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginEnd="15dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:text="@string/things"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/underline" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+                    app:layout_constraintEnd_toEndOf="@+id/linearLayout11"
+                    app:layout_constraintStart_toStartOf="@+id/linearLayout11"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout10">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingBottom="15dp">
+
+                        <ImageView
+                            android:id="@+id/redAddressView2"
+                            android:layout_width="120dp"
+                            android:layout_height="80dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/TODO"
+                            android:src="@drawable/sj1_6" />
+
+                        <TextView
+                            android:id="@+id/redAddressText2"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:text="@string/things"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/view4"
+                        android:layout_width="match_parent"
+                        android:layout_height="1.5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/underline" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayout11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout9">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:paddingBottom="15dp">
+
+                        <ImageView
+                            android:id="@+id/redAddressView3"
+                            android:layout_width="120dp"
+                            android:layout_height="80dp"
+                            android:layout_marginEnd="10dp"
+                            android:contentDescription="@string/TODO"
+                            android:src="@drawable/sj1_1" />
+
+                        <TextView
+                            android:id="@+id/redAddressText3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="15dp"
+                            android:layout_weight="1"
+                            android:ellipsize="end"
+                            android:maxLines="3"
+                            android:text="@string/things"
+                            android:textSize="16sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/red_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp">
+
+                <TextView
+                    android:drawableLeft="@drawable/red_party"
+                    android:textColor="#F31E1E"
+                    android:gravity="center_vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/red_character"
+                    android:textSize="@dimen/font_mid_size" />
+
+                <ImageView
+                    android:id="@+id/person"
+                    android:layout_width="29dp"
+                    android:layout_height="29dp"
+                    android:contentDescription="@string/TODO"
+                    android:src="@drawable/load_more" />
+
+            </LinearLayout>
+
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="480dp">
+
+                <FrameLayout
+                    android:id="@+id/frameLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline26"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline31"
+                    app:layout_constraintStart_toStartOf="@+id/guideline30"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/red_people_headview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/people1" />
+
+                    <TextView
+                        android:id="@+id/red_people_headtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="#88000000"
+                        android:paddingStart="5dp"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:text="@string/people"
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/red_people_text1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:text="台州“洋女婿”罗博：这座城市越品越有味"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline31"
+                    app:layout_constraintStart_toStartOf="@+id/guideline32"
+                    app:layout_constraintTop_toTopOf="@+id/guideline27" />
+
+                <TextView
+                    android:id="@+id/red_people_text2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="3"
+                    android:text="【百年东阳风云人物】旌旗北伐书赤色 北伐战争中的东阳人"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline31"
+                    app:layout_constraintStart_toStartOf="@+id/guideline32"
+                    app:layout_constraintTop_toTopOf="@+id/guideline28" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp"
+                    android:background="#d1ED4C4C"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline28"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline31"
+                    app:layout_constraintStart_toStartOf="@+id/guideline30"
+                    app:layout_constraintTop_toTopOf="@+id/guideline28" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.40" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.97" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    app:layout_constraintGuide_percent="0.03" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.75" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.5" />
+
+                <androidx.constraintlayout.widget.Guideline
+                    android:id="@+id/guideline26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintGuide_percent="0.45" />
+
+                <ImageView
+                    android:id="@+id/red_people_view1"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="8dp"
+                    android:src="@drawable/people2"
+                    app:layout_constraintBottom_toTopOf="@+id/guideline28"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline32"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/guideline30"
+                    app:layout_constraintTop_toTopOf="@+id/guideline27" />
+
+                <ImageView
+                    android:id="@+id/red_people_view2"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="16dp"
+                    android:src="@drawable/people3"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline32"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="@+id/guideline30"
+                    app:layout_constraintTop_toTopOf="@+id/guideline28" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </LinearLayout>
+    </com.century.zj.custom_components.MyReboundScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

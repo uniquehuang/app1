@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">之江韫</string>
+    <string name="modular_one">途·征</string>
+    <string name="modular_two">知·揽</string>
+    <string name="modular_three">浙</string>
+    <string name="modular_four">薪·传</string>
+    <string name="modular_five">思·筑</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_mine">mine</string>
+    <string name="menu_search">Search</string>
+    <string name="red_event">红色事件</string>
+    <string name="revolutionary_site">红色事迹</string>
+    <string name="TODO">TODO</string>
+    <string name="red_character">红色人物</string>
+    <string name="red_works">红色作品</string>
+    <string name="LuXun_anthology">鲁迅文集</string>
+    <string name="HOME">之江韫</string>
+    <string name="HOME_SEARCH">点击搜索</string>
+    <string name="name">鲁迅</string>
+    <string name="PersonName">请输入账号</string>
+    <string name="PassWord">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="zhuce">注册</string>
+    <string name="mid">|</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="quick_register">快速注册</string>
+    <string name="phone">请输入您的手机号</string>
+    <string name="yanzhengma">输入验证码</string>
+    <string name="zhu_ce">注册</string>
+    <string name="NEXT">下一步</string>
+    <string name="PasswordAndName">密码与昵称</string>
+    <string name="remind_one">为了保证密码安全，建议位字母、数字、符号的组合密码</string>
+    <string name="NameHint">请设置你的昵称（非必填）</string>
+    <string name="remid_two">建议2–15个字，支持中英文、数字</string>
+    <string name="things">《学习时报》头版头条刊发袁家军书记文章：以守好红色根脉的担当走好新的赶考之路</string>
+    <string name="people">张瑞:永不消逝的电波</string>
+    <string name="todo">TODO</string>
+    <string name="travel">开始旅行</string>
+    <string name="testTravel">地图模块</string>
+
+    <!--TODO:MyViewModel     USER_FORM!!!!!!!!!!!!!!-->
+    <string name="USER_PHONE">userphone</string>
+    <string name="PASSWORD">password</string>
+    <string name="USER_NAME">username</string>
+
+    <string name="USER_GENDER">usergender</string>
+    <string name="USER_GRADE">usergrade</string>
+    <string name="OUT_IN">USER</string>
+    <string name="spirit_travel">红色精神之旅</string>
+    <string name="belief_travel">红色信仰之旅</string>
+    <string name="Beacon_years">烽火岁月之旅</string>
+    <string name="sea_reclamation">山海垦荒之旅</string>
+    <string name="travel_read">途征说明</string>
+    <string name="USER_DZ">dzcount</string>
+    <string name="USER_STUDY_DAY">studydayscount</string>
+    <string name="USER_STUDY_TIME">studytimecount</string>
+    <string name="USER_PK">pkcode</string>
+    <string name="USER_REPLY">replycode</string>
+    <string name="USER_LEVEL">level</string>
+    <string name="USER_DRAW">drawright</string>
+    <string name="USER_IMG">userimg</string>
+    <string name="USER_CODE">code</string>
+    <string name="USER_READ">readnumber</string>
+    <string name="tr1">\t\t\t浙江红色精神之旅从嘉兴出发途径湖州，终点止于杭州，景点包括嘉兴南湖景区新四军苏浙军区旧址，天荒坪镇的余村村、枫树岭镇下姜村，萧山衙前农民运动史迹群等.这条线路中的红船尤为著名，它象征着中国革命源头;余村村也是我国第一所农民小学的诞生地。</string>
+    <string name="tr2">\t\t\t浙江红色信仰之旅从金华出发途径丽水，衢州为重点，途径的景区包括义乌“望道信仰”景区，遂昌王村口、衢州开化浙西革命斗争纪念馆（浙皖赣省委机关旧址、浙皖特委旧址、新四军集结组编旧址）。这条路线是义乌近年革命史中的传奇，纪录着南方革命斗争的历程。也是华东十大最美赏花胜地之一。</string>
+    <string name="tr3">\t\t\t浙江烽火岁月之旅全部在温州市境内，可以从永嘉出发，途径平阳到洞头，景点包括工农红军第十三军军部旧址，丽水街，屿北村的抗日武装起义纪念碑亭，楠溪江风景区，中共浙江省一大纪念园，东海先锋女子民兵连纪念馆等景观。这条线路不仅能感受田园诗画般的楠溪江，还能追忆革命先辈的英勇事迹。</string>
+    <string name="tr4">\t\t\t浙江山海垦荒之旅从台州出发途径宁波，到绍兴为止，景区包括大陈岛垦荒纪念碑，一江山岛战役纪念地，三门亭旁起义红色遗址群，梁弄镇横坎头村和鲁迅故里等。这条线路以艰苦创业、奋发图强为主线，拥有我国保存最完整的现代战争遗址和浙江省第一个苏维埃政权的诞生地，以及鲁迅当年生活的地方。</string>
+    <!--TODO:MyViewModel    !!!!!!!!!!!!!!!-->
+
+
+    <string name="mine_name">用户名</string>
+    <string name="NOTE">笔记簿子</string>
+    <string name="user_message">信息修改</string>
+    <string name="good">被赞数:</string>
+    <string name="da_ka">打卡天数:</string>
+    <string name="days">55</string>
+    <string name="weizhi">\@id/appBar</string>
+    <string name="achievement_game">点亮:</string>
+    <string name="RANK">排名</string>
+    <string name="CODE">积分</string>
+
+
+    <!--TODO:PuzzleGame   -->
+    <string name="pt1">\t\t\t衙前是一块神奇的土地，古老而又荣光。不仅是浙江省首批历史文化名镇，还是新兴的工业重镇，自古是交通要地，有“坎赭锁重门，吴越通衢”之称。衙前在中国共产党领导下，成立第一个农民协会，颁布第一部农民革命的行动纲领，爆发第一次农民运动，搭建第一所农民子女学校。激荡人心的“四个第一”，见证了衙前这块非同寻常的红色土地，在波澜壮阔的大时代中肩负的伟大历史使命。</string>
+    <string name="pt2">
+\t\t\t1920年2月，在春寒料峭的义乌老家柴房，陈望道夜以继日，废寝忘食两个多月，最终完成了《共产党宣言》中文全译本，燃起信仰火种。《共产党宣言》中文全译本的出版发行，有力地推动了马克思主义在中国的广泛传播，让苦苦思索中国出路的先进分子，从中看到了希望，感受到真理的力量，为中国共产党的创立奠定了重要的思想基础，并成为中国共产党带领无产阶级和广大劳苦群众走向光明、走向幸福、走向自由、走向富裕的指路明灯。</string>
+    <string name="pt3">
+中国工农红军第十三军，简称红十三军，是中国工农红军正式编制序列里的部队番号，于1930年5月在浙江省永嘉县建立，是编入中央军委序列的全国十四支红军之一，全盛时拥有6000余人。下设三个团，第一团以浙南红军游击总指挥部的部队为基础组建，青田和缙云南部的红军游击队编入该团，第二团以台州温岭的红军为基础组建，第三团以永康和缙云县东北部的红军游击队为基础组建。红十三军建立后，战绩颇丰。</string>
+    <string name="pt4">\t\t\t楠溪江风景区位于浙江省温州市北部的永嘉县境内，东与雁荡山毗邻，西接缙云仙都，北与仙居景区接壤。有着“中国山水画摇篮”之称，一直以“山清水秀村美”的独有特色而闻名遐迩，是国家级风景区当中唯一以田园山水风光见长的景区。至今遗存着新石器时代的文化遗址，唐宋元明清时的古塔、桥梁、路亭、牌楼和古战场，并保存着以“七星八斗”和“文房四宝”以及阴阳风水构思而建筑的古村落；且留存着大批完整的百家姓宗谱、族谱等。</string>
+    <string name="pt5">\t\t\t鲁迅故里是伟大的思想家、文学家、革命家鲁迅先生早年成长、生活的故土，是市区保存最完好、最具文化内涵和水乡古城经典风貌的历史街区，位于浙江省绍兴市市区鲁迅中路。经过2年多时间保护和修缮后，鲁迅故里不仅再现了鲁迅当年生活的故居、祖居、三味书屋、百草园的原貌，还可看到鲁迅祖居从未对外开放的西厢房和近期恢复的周家新台门、寿家台门、土谷祠、鲁迅笔下风情园等一批与鲁迅有关的古宅古迹。</string>
+    <string name="pt6">\t\t\t1959年，南湖革命纪念馆根据中共“一大”会议时来嘉兴安排游船的直接当事人王会悟回忆，仿制了一艘丝网船模型，送到北京请中共“一大”代表董必武审定认可。后按模型原样仿制了一艘画舫，作为南湖革命纪念船，供群众瞻仰。1964年董必武重来南湖，他登上画舫，感慨万千，挥毫题诗一首：“革命声传画舫中，诞生共党庆工农；重来正值清明节，烟雨迷蒙访旧踪。”现南湖革命纪念船停泊处岸上，建有一座“访踪亭”，亭内树立董必武诗碑。</string>
+    <string name="pt7">\t\t\t《回家》是一部反映中国军民英勇抗战的长篇小说。小说以宁波鄞县四明山抗日根据地发生的人物和事迹为原型，描绘了一群想回家过安生日子的被打散的新四军和国军军人在一个县城的祠堂偶遇，为了养好伤回家，从小矛盾不断到齐心协力，其中有爱情、友情、生死抉择等引人深思的故事发生。</string>
+    <string name="next_level">下一关</string>
+    <string name="mine_collection">我的收藏</string>
+    <string name="mine_cricle">圈子</string>
+    <string name="LOADING">loading...</string>
+    <string name="liuying">"\t\t\t\t\t1939年7月21日至30日，中共浙江省第一次代表大会在平阳县凤卧乡的冠尖山上拉开了序幕，这是新民主主义革命时期浙江党组织召开的唯一一次全省党代表大会，是浙江党史上一个重要里程碑。\n\t\t\t\t\t为了红色革命的需要，刘英的足迹踏遍浙南的山山水水。1942年2月，由于叛徒出卖，刘英在温州遭国民党逮捕。面对敌人的诱降、审讯，坚贞不屈，还向看守们讲抗日民族统一战线的道理，揭露国民党破坏抗战、捕杀共产党人的罪行。是年5月18日，在永康方岩就义。"</string>
+    <string name="BACK">退出</string>
+    <string name="START_READ">开始朗诵</string>
+    <!--TODO:PuzzleGame   -->
+    <string name="redboat">\t\t\t\t1921年7月23日，中国共产党第一次全国代表大会在上海法租界望志路106 号秘密召开。国内各地共产党早期组织和旅日的共产党早期组织共派出13名代表出席，他们代表了全国50多名党员，共产国际代表马林和尼柯尔斯基也受邀列席了会议。
+        \n\t\t\t\t7月 30 日晚，大会第六次会议刚刚开始，法租界巡捕突然闯入，会议被迫中断。这时，一大代表李达的夫人王会悟女士提出能否转移到嘉兴，代表们以游客的身份一边游湖一边开会的建议，这个建议得到了代表们的认可。于是，历史选择了嘉兴，选择了南湖。</string>
+
+    <!--TODO:Read-->
+    <string name="Qinyuan_spring_Changsha">
+                       "沁园春·长沙\n作者：毛泽东\n独立寒秋，湘江北去，橘子洲头。\n看万山红遍，层林尽染；漫江碧透，百舸争流。\n鹰击长空，鱼翔浅底，万类霜天竞自由。\n怅寥廓，问苍茫大地，谁主沉浮？\n携来百侣曾游。忆往昔峥嵘岁月稠。\n恰同学少年，风华正茂；书生意气，挥斥方遒。\n指点江山，激扬文字，粪土当年万户侯。\n曾记否，到中流击水，浪遏飞舟？"</string>
+    <string name="ZiTiXiaoXiang">"《自题小像》\n近现代·鲁迅\n
+灵台无计逃神矢，\n风雨如磐暗故园。\n寄意寒星荃不察，\n我以我血荐轩辕。"</string>
+    <string name="Yi">"忆陈望道先生\n林宝明\n神州阴云暗如磐，\n义乌柴房亮灯盏。\n昼昼握笔忘食水，\n夜夜校译废寝眠。\n糖水泡粽案头凉，\n墨汁粘唇心底甜。\n一声宣言破天晓,\n从此红日照故园。"</string>
+</resources>

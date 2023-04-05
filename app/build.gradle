@@ -1,0 +1,129 @@
+plugins {
+    id 'com.android.application'
+}
+apply plugin: 'com.mob.sdk'
+// 注册SMSSDK的相关信息
+MobSDK {
+    appKey "33c067abdf106"
+    appSecret "9f6d9ce49f3e14b498587328460e2054"
+    spEdition "fp" // 设定MobSDK为隐私协议适配版本
+    SMSSDK {}
+}
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.3"
+
+    defaultConfig {
+        applicationId "com.century.zj"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+
+repositories {
+    google()
+    jcenter()
+}
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.1'
+    implementation 'androidx.navigation:navigation-fragment:2.3.0'
+    implementation 'androidx.navigation:navigation-ui:2.3.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0'
+
+    implementation files('libs\\Msc.jar')
+    implementation 'jp.wasabeef:glide-transformations:4.3.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation files('libs/Msc.jar')
+
+    //dagger2
+    implementation 'com.google.dagger:dagger:2.5'
+    annotationProcessor 'com.google.dagger:dagger-compiler:2.5'
+
+    //coordinatorlayout
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+
+    //rxjava
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    implementation 'io.reactivex:rxjava:1.1.8'
+    //retrofit
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
+
+    implementation 'com.alibaba:fastjson:1.2.23'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+
+    //网络框架
+    implementation 'com.squareup.okhttp3:okhttp:3.14.+'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //glide框架
+//    implementation 'jp.wasabeef:glide-transformations:3.0.1'
+//    implementation 'jp.wasabeef:glide-transformations:2.0.1'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+    //SmartRefreshLayout刷新框架
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.3'
+    implementation 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.3'  //没有使用特殊Header，可以不加这行
+
+    //视频播放器
+    implementation 'com.github.dueeeke.dkplayer:dkplayer-java:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:dkplayer-ui:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:player-exo:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:player-ijk:3.2.6'
+    implementation 'com.github.dueeeke.dkplayer:videocache:3.2.6'
+
+    //魅族Banner
+    implementation 'com.github.pinguo-zhouwei:MZBannerView:v2.0.0'
+
+    //BRVAH 强大的recyclerView框架
+    implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    //地图依赖
+    implementation(name:'AMap3DMap_7.9.1_AMapNavi_7.9.1_AMapSearch_7.9.0_AMapLocation_5.3.1_20210414',ext:'aar')
+//
+//    // 标准转换器,去掉 Retrofit上传参数时，String参数会多一对双引号
+    implementation 'com.squareup.retrofit2:converter-scalars:2.3.0'
+
+
+
+}

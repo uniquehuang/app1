@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.century.zj">
+    <!-- 网络相关权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--地图相关权限-->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--允许程序设置内置sd卡的写权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--允许程序读写手机状态和身份-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--允许程序访问CellID或WiFi热点来获取粗略的位置-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <application
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:allowBackup="true"
+        android:icon="@mipmap/zjy_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/zjy_launcher_round"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Zj">
+        <activity android:name=".ui.main.Game.music.SongActivity"/>
+        <activity android:name=".ui.mine.note.NoteActity"></activity>
+        <activity android:name=".ui.main.Home_page.search.SearchActivity" />
+        <activity android:name=".ui.main.Game.answer.ExamActivity"/>
+        <activity android:name=".ui.main.Game.answer.AnswerGame"/>
+        <activity android:name=".ui.mine.cricle.CircleActivity" />
+        <activity android:name=".ui.mine.collection.CollectionActivity" />
+        <activity android:name=".ui.main.Game.ranking.RankActivity" />
+        <activity android:name=".ui.main.Forum.write.WriteActivity" />
+        <activity android:name=".ui.main.Game.achievement.AchievementActivity" />
+        <activity android:name=".ui.main.Game.puzzle.PuzzleGame" />
+        <activity android:name=".ui.mine.setup.SetUpActivity" />
+        <activity android:name=".ui.forget_password.ForgetActivity" />
+        <activity android:name=".ui.main.Study.Work.WorkActivity" />
+        <activity android:name=".ui.main.Study.Person.PersonActivity" />
+        <activity android:name=".ui.main.Study.Literature.LiteratureActivity" />
+        <activity android:name=".ui.main.Study.Event.EventActivity" />
+        <activity android:name=".ui.register.RegisterActivity" />
+        <activity android:name=".ui.mine.MineActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
+        <activity android:name=".ui.main.Travel.Activity.ARActivity" />
+        <activity android:name=".ui.main.Travel.Activity.TravelActivity" />
+        <activity android:name=".ui.main.Travel.Activity.AttractionActivity" />
+        <activity android:name=".ui.main.Travel.Activity.TravelReadActivity" />
+        <activity android:name=".ui.main.Game.song.MusicActivity"/>
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustPan">
+        </activity>
+        <activity
+            android:name=".ui.splash.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.Game.draw.DrawActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+        </activity>
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="a9e32d9a9356d07b560d2a44bb94fa7d" />
+    </application>
+</manifest>

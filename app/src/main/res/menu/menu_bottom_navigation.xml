@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/first"
+        android:icon="@drawable/journey"
+        android:title="@string/modular_one" />
+    <item
+        android:id="@+id/second"
+        android:icon="@drawable/knowledge"
+        android:title="@string/modular_two" />
+    <item
+        android:id="@+id/third"
+        android:icon="@drawable/zjs"
+        android:title="@string/modular_three" />
+    <item
+        android:id="@+id/fourth"
+        android:icon="@drawable/pass"
+        android:title="@string/modular_four" />
+    <item
+        android:id="@+id/fifth"
+        android:icon="@drawable/learning"
+        android:title="@string/modular_five" />
+</menu>

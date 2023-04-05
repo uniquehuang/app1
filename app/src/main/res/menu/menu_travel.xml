@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstTravel"
+        android:icon="@drawable/travel_first"
+        android:title="@string/spirit_travel" />
+    <item
+        android:id="@+id/secondTravel"
+        android:icon="@drawable/travel_second"
+        android:title="@string/belief_travel"/>
+    <item
+        android:id="@+id/thirdTravel"
+        android:icon="@drawable/travel_third"
+        android:title="@string/Beacon_years" />
+    <item
+        android:id="@+id/fourthTravel"
+        android:icon="@drawable/travel_fourth"
+        android:title="@string/sea_reclamation" />
+</menu>

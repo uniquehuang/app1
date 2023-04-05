@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/page2"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/music_back"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="40dp"
+        android:layout_height="20dp"
+        android:text="返回"/>
+    <TextView
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:drawableLeft="@drawable/listen"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="听红歌学新知"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:layout_width="334dp"
+            android:layout_height="350dp"
+            android:layout_marginTop="80dp">
+
+            <ImageView
+                android:layout_width="276dp"
+                android:layout_height="276dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/icon_projection" />
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icon_audio_record" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/iv_last"
+            android:layout_width="51dp"
+            android:layout_height="47dp"
+            android:background="@drawable/iv_last"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/iv_pause"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        <ImageView
+            android:id="@+id/iv_pause"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/iv_start"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_next"
+            android:layout_width="47dp"
+            android:layout_height="48dp"
+            android:background="@drawable/iv_next"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_pause"
+            app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/music"
+            android:drawablePadding="5dp"
+            android:text="刘英之歌"
+            android:textColor="#e1F11818"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.04" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</LinearLayout>
