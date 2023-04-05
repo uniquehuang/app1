@@ -4,7 +4,7 @@
 
 多媒体竞赛：红色文化学习教育类app
 
-![img](README.assets/wps12.jpg) 
+<img width="450" alt="image" src="https://user-images.githubusercontent.com/82577086/230064768-710e445b-1c18-4cff-94cf-044f2a02c4c4.png">
 
  
 
@@ -56,7 +56,7 @@ MVVM框架的优势：
 
 3.MVVM框架是在MVC的基础上演化而来，MVVM想要解决的问题是尽可能地减少Controller的任务。
 
-![img](README.assets/wps13.jpg) 
+<img width="438" alt="image" src="https://user-images.githubusercontent.com/82577086/230064826-20e2328c-ad4b-4e44-ade5-5d8f760c7d44.png">
 
 ***\*Model：\****程序中要操纵的实际对象的抽象
 View(ViewController)：MVVM中的View不再是UIView的子类，而变成了UIViewController的子类。这里的View实际上就是MVC中剥离了处理呈现View逻辑部分的Controller，因此它仍然有各种UIView的属性，仍然有ViewController的声明周期的各种方法，但是这里的Controller不再负责数据的请求以及处理逻辑，因此不再臃肿。
@@ -130,11 +130,11 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
  
 
-![img](README.assets/wps16.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230064899-7ce3801c-fc9b-441a-8a7c-4a817d4a8407.png">
 
 ## ***\*3\*******\*.2\**** ***\*系统数据交互设计\****
 
-![img](README.assets/wps17.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230064935-4bf5075f-6ca9-40b5-86e8-10bde38d044a.png">
 
 ## ***\*3.3 系统功能设计\****
 
@@ -144,7 +144,7 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 “之江韫”APP前台功能设计如下图所示。首页“浙”又包含打卡、跳转、推荐三大功能；“途·征”包含“红色精神”、“红色信仰”、“烽火岁月”和“山海垦荒”四条对应的旅游路线；“知·揽”包含红色事件、红色影像、重要文献、红色人物和文艺作品五个子模块；“薪·传”实现论坛功能，可用于发帖和讨论；“思·筑”包含排行榜、小游戏和荣誉墙三大子模块；“个人主页”包含打卡天数、点赞、阅读数、笔记簿子、收藏、我的圈子、设置几大子模块。
 
-![img](README.assets/wps18.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230064997-8751c888-a566-4dc5-b507-11059b565920.png">
 
 图 APP系统总功能框架
 
@@ -152,13 +152,13 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 ***\*（2）“途·征”：\****随着历史这扇厚重的大门缓缓开启，我们追逐前方的光明而行。借助地图，使用者能够清晰地了解到四条路线的全貌，并对每一条路线上的所有红色景点有一个简单的了解，同时，还可以根据自身兴趣，选取一些景点进行更加深入的了解——景点介绍、相关介绍、精选评论、互动留言，应有尽有。另外，使用者还可以借助VR全景，身临其境地领悟“红船”精神的深刻内涵，体味“开天辟地，敢为人先”的豪情壮举。“世界当中一个小小的学校”给农民子女带去学习知识的机会，“东海先锋”书写了巾帼英雄的无双气概……
 
-![img](README.assets/wps19.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230065335-8de20765-063c-40d4-a0f4-3dafeb458fdd.png">
 
 图 “途·征”模块功能详情
 
 ***\*（\*******\*3\*******\*）“知·揽”：\****该模块是该应用中覆盖学习资源最多最完整的模块，这里有关于“红色精神”、“红色信仰”、“烽火岁月”、“山海垦荒”四条线路的各种学习资料，如影像资料、图文资料、音频资料等。在这里可以回味曾经发生的点滴故事，从嘉兴南湖到萧山衙前，从望道信仰到浙西革命，从红十三军到东海先锋，从大陈岛到鲁迅故里，钟林毓秀的之江大地，人才辈出的之江大地，在中国共产党领导下一步步走向和平繁荣的之江大地，都美好地呈现在了“知·揽”模块，让使用者也能随着历史的脚步缓缓向前，栉风沐雨，劈波斩浪。
 
-![img](README.assets/wps20.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230065397-90b6a999-2581-4dfa-9d2a-7cb6c2af9ff1.png">
 
 图 “知·揽”模块功能详情
 
@@ -166,13 +166,13 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 ***\*（\*******\*5\*******\*）“思·筑”：\****在该模块中，我们设计了五款精彩的小游戏，帮助用户巩固和复习学到的知识。它们分别是红色答题、红色拼图、红色朗诵、红色绘画和红歌赏析。在红色答题中，用户不仅可以检测学习成果，还能知道自己的正确率，有错题提示和答案解析。红色拼图的难度层层递增，在规定的时间内完成拼图，还能够获取精彩的图片故事。在红色绘画中，用户可以充分发挥自己的想象力和动手能力。
 
-![img](README.assets/wps21.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230065443-08360ca4-e2cc-490e-8d33-2c608ad33595.png">
 
 图 “思·筑”模块功能详情
 
 ***\*（\*******\*6\*******\*）个人主页：\****该模块通过右上角图标进入，方便用户在使用时能够随时查看个人空间、调用功能、管理个人信息、设置隐私情况等。在这里，用户可以找到自己收藏的文章，曾经发布的论坛，以及在学习时记录下来的心得体会。
 
-![img](README.assets/wps22.jpg) 
+<img width="416" alt="image" src="https://user-images.githubusercontent.com/82577086/230065505-718924f8-9778-4085-97f0-8e9a3a083e7a.png">
 
 图 “个人主页”模块功能详情
 
@@ -204,13 +204,15 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 打开“之江韫”APP，会出现如下的引导页面，进行5s动态展示，如下图4-1所示。用户也可点击右上角的“跳过”按钮，直接来到APP的首页，如图4-2所示。
 
-![img](README.assets/wps23.png)						![img](README.assets/wps24.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065542-58a6a449-ee9b-4d49-a926-9e752f8a8ff4.png">					<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065564-8ad21d86-a2ed-41be-82d4-f0f8a4541e86.png">
 
 图4-1 登录引导页										图4-2 APP首页
 
 如若用户需要记录学习，可点击右上方进入“个人主页”界面，如图4-3所示。再点击“登录”，跳转到登录界面，如图4-4所示。若用户忘记密码或新用户注册时，则点击登录界面下方的“忘记密码”和“快速注册”，进入填写用户手机及验证码的界面，如图4-5所示。
 
-![img](README.assets/wps25.png) ![img](README.assets/wps26.png) ![img](README.assets/wps27.png)
+<img width="127" alt="image" src="https://user-images.githubusercontent.com/82577086/230065648-5ffcdd56-2835-471e-ba2c-6d2e66d389b2.png">
+<img width="127" alt="image" src="https://user-images.githubusercontent.com/82577086/230065671-249c88ac-43b7-4a36-983a-a83f4ee936ad.png">
+<img width="127" alt="image" src="https://user-images.githubusercontent.com/82577086/230065699-5151eb94-9183-4e11-b97f-90fc560ae635.png">
 
 图4-3 个人主页			图4-4 登录界面				图4-5 注册界面
 
@@ -220,7 +222,9 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 从桌面图标启动App后首先进入加载页，然后就能看到首页的“浙”模块。该模块主要的作用是推荐一些最新、最热，以及用户感兴趣的文章给用户，只需要点击即可查看详细内容。文章上方的精品画廊，采用图文并茂的方式介绍四条旅游路线，用户通过点击就能够跳转到“途·征”模块中对应的路线。另外，模块上方还设置了每日打卡和搜索功能，帮助用户养成良好的习惯，如图4-6所示。“搜索栏”可快速获取想要了解的内容并进行跳转，如图4-7所示。
 
-![img](README.assets/wps28.png) ![img](README.assets/wps29.png) ![img](README.assets/wps30.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065742-884f9e52-c4ef-414b-ba57-1bb78ffe7119.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065755-c05d813e-64a2-4b5c-bfb9-a6887538e58b.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065766-7a67c7a5-bb47-4d92-ae7c-475a5afa3ffa.png">
 
 图4-6 打卡界面							 图4-7 搜索界面
 
@@ -228,13 +232,16 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 “途·征”模块中详细介绍了四条旅游路线，他们分别是从嘉兴南湖到萧山衙前的“红色精神”之旅，从望道信仰到浙西革命的“红色信仰”之旅，从红十三军到东海先锋的“烽火岁月”之旅，从大陈岛到鲁迅故里的“山海垦荒”之旅，点击“开始旅途”即可进入，如图4-8所示。用户可以在右上方自由切换四条线路对其进行了解，不仅能够通过地图描绘线路的轮廓，还能快速地了解沿途景观，如图4-9所示。如果感兴趣，还能够进一步深入探索——VR观景带领用户身临其境，如图4-10所示。优美动听的解说将景区文化娓娓道来，言简意赅的卡片解说简明扼要，牢牢吸引住用户的眼球，激发他们对学习的兴趣。
 
-![img](README.assets/wps31.png) ![img](README.assets/wps32.png) ![img](README.assets/wps33.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065807-6c81764f-353b-4bae-9f84-1b9c84835aff.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065832-1627ef4f-d054-428d-b26f-d89e8965322a.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065842-60745387-d020-4ba5-b008-c22ca2a720c6.png">
 
 图4-8 四条旅游路线
 
  
-
-![img](README.assets/wps34.png) ![img](README.assets/wps35.png) ![img](README.assets/wps36.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065871-7b0cb178-2d06-4d98-8eec-0e5b0aeeb641.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065889-20d5b937-2962-4876-8666-c63298d72725.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065907-d519236e-a585-4a05-898d-101c6b176127.png">
 
 图4-9 沿途景观了解							图4-10 AR身临其境
 
@@ -243,12 +250,13 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 紧接着，用户可以通过“知·揽”模块更加系统地进行学习。该模块涵盖了丰富的学习资源，如影像资料、图文资料、音频资料等。也可以通过红色事件、红色人物、历史文献、文艺作品进行分门别类地学习，如图4-11所示。遇到重要或感兴趣的内容，用户还能够通过添加收藏、标记阅读、制作笔记等方式记录下来，这些都会体现在“我的”个人模块中，方便下次学习，如图4-12~13所示。
 
  
-
-![img](README.assets/wps37.png) ![img](README.assets/wps38.png) ![img](README.assets/wps39.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065959-4d2b760b-039a-4a2c-8d50-97f5c65f873a.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065975-2e18a1ef-42e7-48ae-97bc-217c85fcf9f8.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230065991-d06b51f5-a564-49fc-ba24-d8da5481b881.png">
 
 图4-11 学习资源				图4-12 标记阅读				图4-13 收藏
 
-![img](README.assets/wps40.png)					![img](README.assets/wps41.png)
+<img width="123" alt="image" src="https://user-images.githubusercontent.com/82577086/230066088-a559c7b9-6c0f-493d-8692-ab0873418b36.png">			<img width="123" alt="image" src="https://user-images.githubusercontent.com/82577086/230066120-b865b170-e999-4fd1-96df-ac4c736ade3f.png">
 
 图4-14 做笔记									图4-15 分享
 
@@ -256,7 +264,8 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 此外，在学习之余，用户可以通过“薪·传”模块中的论坛功能发表一些学习心得，也可以对一些问题进行探讨，从而达到巩固所学、提升自我的新境界，如图4-16所示。
 
-![img](README.assets/wps42.png) ![img](README.assets/wps43.png) ![img](README.assets/wps44.png)
+<img width="118" alt="image" src="https://user-images.githubusercontent.com/82577086/230066147-0c4dba67-5deb-43e1-a5ef-ebaac66e4f49.png">
+<img width="119" alt="image" src="https://user-images.githubusercontent.com/82577086/230066172-dc489b2a-3c87-4dd0-862d-bfb83080182e.png">
 
 图4-16 论坛功能
 
@@ -264,35 +273,41 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 当然，用户也可以通过参与“思·筑”模块中的各类精彩小游戏，检验自己的学习成果。通过红色答题，用户可以检测学习成果，知道自己的正确率，查看错题和解析，多次训练有助于巩固。红色拼图的难度层层递增，在规定的时间内完成拼图，还能够获取精彩的图片故事。在红色朗诵中，用户可以尝试朗诵许多脍炙人口的小诗，应该还会根据用户的朗诵情况给出相应的评分，提出修改的建议。更有积分排行榜和荣誉勋章墙，紧张刺激，激发潜能。真正做到让用户在玩中练，在练中学，劳逸结合，提高效率，如图4-17~24所示。
 
- 
+ <img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066233-d6617b23-92c9-4131-8d22-c9801b8a32ee.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066248-8b777e7c-a96d-4788-b19b-5b8874c1ae62.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066256-eada1844-cfd9-49bb-936a-4a5917e6982b.png">
 
-![img](README.assets/wps45.png) ![img](README.assets/wps46.png) ![img](README.assets/wps47.png) 
+
 
 图4-17 “思·筑”界面			图4-18 排行榜				图4-19 荣誉墙
 
  
-
-![img](README.assets/wps48.png) ![img](README.assets/wps49.png) ![img](README.assets/wps50.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066291-a7874949-ad9b-496f-ac1a-d5ee485c4393.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066312-ba7b3209-2eba-496b-9de5-b0ab1fd461e7.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066324-40dbdadd-5991-4558-ad90-604491335d5d.png">
 
 图4-20 每日答题界面
 
-![img](README.assets/wps51.png) ![img](README.assets/wps52.png) ![img](README.assets/wps53.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066360-10d6db97-0f68-4ae6-b8d9-29a8511108a2.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066399-039b6e4e-9238-4afe-b766-a3a62b17c519.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066408-419b262c-1218-4258-8737-84e9d4353c9c.png">
 
 图4-21 红色拼图界面
 
  
-
-![img](README.assets/wps54.png) ![img](README.assets/wps55.png) ![img](README.assets/wps56.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066443-35368f7c-2c93-4348-8ff0-5f305365c6fb.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066455-92ddae6f-b493-4f88-9602-83d2bfe60d69.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066474-7a96c8cd-20ed-4f8c-963e-18debceba580.png">
 
 图4-22 红色朗诵界面
 
  
 
-![img](README.assets/wps57.png) 
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/82577086/230066514-0a269b50-8abb-4eb6-8bd5-b101735c7b47.png">
 
 图4-23 红色绘画界面
 
- 				![img](README.assets/wps58.png)
+ 				![<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066536-0334e2a0-c3b9-4ab6-ab03-102771848b79.png">
 
 ​							图4-24 听红歌界面
 
@@ -300,7 +315,10 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 个人主页“我的”模块设置在右上角，方便用户随时管理个人信息和学习收藏内容。在这里，用户可以找到自己以前在其他模块收藏的各种内容，通过“我的圈子”则可以接收到所发布帖子的实时状况，便捷地管理帖子，参与讨论。不仅如此，“笔记簿子”更是用户勤奋学习的见证，用户还可以将满意的笔记和感想分享给其他人，一起享受此刻的欢愉，同时也能吸引更多的使用者如图4-25~27所示。
 
-![img](README.assets/wps59.png) ![img](README.assets/wps60.png) ![img](README.assets/wps61.png)
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066575-b0c889a2-8c28-4b77-b617-07d0b2c62179.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066597-8553d44a-422a-4c9c-8752-c3c9c2dc08ae.png">
+<img width="132" alt="image" src="https://user-images.githubusercontent.com/82577086/230066633-63a1fd23-8603-4f47-b8d8-88d0baf8ebaf.png">
+
 
 图4-25 个人主页			图4-26 “我的圈子”界面		图4-27 “笔记簿子”界面
 
@@ -310,16 +328,15 @@ Springboot集成了轻量型的服务器Tomcat，只需要将项目打包成jar�
 
 对app的下载:
 
-![img](README.assets/wps62.jpg) 
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/82577086/230066669-ceb73e71-ede7-4a9c-adb0-83d98ebd5a16.png">
 
 对数据的增删改查：
 
-![img](README.assets/wps63.jpg) 
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/82577086/230066718-d84c0874-be25-42ce-969c-c6e81d66ed3f.png">
 
-![img](README.assets/wps64.jpg) 
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/82577086/230066743-d804744c-7a13-4752-84d4-dc44facfb9ed.png">
 
-![img](README.assets/wps65.jpg) 
-
+<img width="415" alt="image" src="https://user-images.githubusercontent.com/82577086/230066761-d971e1cd-8bcb-4e34-8c51-59d2746221a7.png">
 ## ***\*4\*******\*.4\**** ***\*实现程度\****
 
 项目组通过分析用户需求，设计“之江韫”APP的系统架构，再利用visio和ioDraw设计简单的逻辑结构；在逻辑结构较为完善的条件下，进行后台数据库搭建与管理。目前APP的后台已经基本实现，“之江韫”APP已经完成了90%的功能。
